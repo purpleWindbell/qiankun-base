@@ -10,6 +10,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "element-ui": "^2.15.13",
+    "postcss-loader": "^7.3.3",
+    "postcss-selector-namespace": "^3.0.1",
     "qiankun": "^2.4.1",
     "vue": "^2.6.11",
     "vue-router": "^3.0.2"
@@ -22,9 +24,6 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.9.0",
-    "postcss-change-css-prefix": "^1.0.4",
-    "postcss-loader": "^7.3.3",
-    "postcss-selector-namespace": "^3.0.1",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.11"
   },

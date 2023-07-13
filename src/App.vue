@@ -4,12 +4,12 @@
  * @LastVersion: 2.0
  * @Autor: gaoyue
  * @Date: 2023-06-30 14:31:29
- * @LastEditTime: 2023-07-11 14:33:46
+ * @LastEditTime: 2023-07-13 16:04:42
 -->
 <template>
-  <div id="app" class="base-css">
-    <img alt="Vue logo" src="./assets/logo.png">
+  <div id="base-app" class="base-css">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+     <!-- <router-view  /> -->
   </div>
 </template>
 
@@ -25,7 +25,8 @@ export default {
 </script>
 
 <style>
-#app {
+#base-app {
+  height: 100vh;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
